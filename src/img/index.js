@@ -1,0 +1,15 @@
+import './chevron-thin-right.svg';
+import './favicon.png';
+import './hotel-1.jpg';
+import './hotel-2.jpg';
+import './hotel-3.jpg';
+import './logo.png';
+import './sprite.svg';
+// import './text.txt';
+import './user-1.jpg';
+import './user-2.jpg';
+import './user-3.jpg';
+import './user-4.jpg';
+import './user-5.jpg';
+import './user-6.jpg';
+import './user.jpg';
