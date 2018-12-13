@@ -1,0 +1,5 @@
+package-lock.json
+node_modules
+css/style.css
+bundle
+.vscode
