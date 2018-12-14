@@ -48,7 +48,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(png|jpg|gif|mp4|webm)$/,
+                test: /\.(png|svg|jpg|gif|mp4|webm)$/,
                 use: [{
                     loader: 'file-loader',
                     options: {
@@ -59,7 +59,7 @@ module.exports = {
                 }]
             },
             {
-                test: /\.(eot|svg|ttf|woff)$/,
+                test: /\.(eot|ttf|woff)$/,
                 use: [{
                     loader: 'file-loader',
                     options: {
