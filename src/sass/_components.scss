@@ -429,13 +429,16 @@
         margin-right: .7rem;
 
         // Older browsers
-        // background-image: url(../img/chevron-thin-right.svg);
-        // background-size: cover;
+        background-image: url(../img/chevron-thin-right.svg);
+        background-size: cover;
 
         // Modern browsers
-        background-color: var(--color-primary);
-        -webkit-mask-image: url(../img/chevron-thin-right.svg);
-        -webkit-mask-size: cover;
+        @supports (-webkit-mask-image: url()) or (-webkit-mask-image: url()) {
+            background-color: var(--color-primary);
+            -webkit-mask-image: url(../img/chevron-thin-right.svg);
+            -webkit-mask-size: cover;
+            background-image: none;
+        }
     }
 }
 
